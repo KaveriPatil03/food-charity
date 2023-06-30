@@ -1,0 +1,745 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1,h3,h3,h4,h5{
+    font-family: 'Poppins', sans-serif!important;
+    color: #071230;
+}
+i{
+    color: #258a80;
+}
+p{
+    font-weight: 400;
+    /* font-family:; */
+    color: rgb(95, 93, 93);
+}
+.btn{
+    background: #238178!important;
+    border: 1px solid #238178!important;
+}
+.btn:hover{
+    background: #0E2737!important;
+    border: 1px solid #0E2737!important;
+    color: white!important;
+}
+/* NAV BAR */
+.navbar{
+    background: #e7ecf1!important;
+    transition: .5s!important;
+    color: #071230;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 3px 12px;
+    overflow-x: hidden !important;
+        /* background-color: #102b7c; */
+}
+.navbar .navbar-brand{
+    color: #0a686e!important;
+    font-size: 25px;
+    font-weight: 500!important;
+}
+.navbar .navbar-brand .nb{
+    color: #1c2c36!important;
+    font-size: 25px;
+    font-weight: 500!important;
+}
+
+.navbar ul li{
+    font-size: 1.1rem;
+    color: #071230!important;
+    /* font-family: 'Poppins', sans-serif; */
+}
+.navbar ul li a{
+    color: #0E2737!important;
+    text-decoration: none;
+    font-weight: 500;
+    /* font-weight: 400; */
+
+}
+.navbar ul li .button{
+    margin-top: 0px;
+    background: #258a80;
+    min-width: 100%;
+    min-height: 20px;
+    font-weight: 500;
+    border-radius: 5px;
+    padding: 0px 10px;
+
+    /* font-weight: 400; */
+}
+.navbar ul li .button a{
+    margin-top: 0px;
+    color: white!important;
+    font-weight: 500;
+}
+.navbar ul li .button:hover{
+   background: #0E2737;
+   color: white!important;
+   text-decoration: none;
+    font-weight: 500;
+    border-radius: 5px;
+}
+.navbar ul li .button a:hover{
+    color: white!important;
+ }
+.navbar ul li a:hover{
+    color: #258a80!important;
+    font-weight: 500;
+}
+.navbar ul li a::after{
+    content: '';
+    display: block;
+    width: 0px;
+    height: 2px;
+    border-bottom: 2px solid #258a80;
+    bottom: 1px;
+    left: 20px;
+    transition: 0.7s all;
+    
+}
+.navbar ul li a:hover::after{
+    width: 100%;
+    transition: width .3s;
+   
+}
+.navbar ul li .button a::after{
+    content: '';
+    display: block;
+    width: 0px;
+    height: 2px;
+    color: white;
+}
+
+
+.navbar li a.active{
+    color: #258a80!important;
+    font-weight: 500;
+}
+/* END */
+
+/* SLIDER */
+.img1{
+    background-image:linear-gradient(#21252957,#212529a1), url(./img/slider1.jpg);
+    min-width: 100%;
+    min-height: 625px;
+    object-fit: fill;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.img2{
+    background-image: linear-gradient(#21252957,#212529a1), url(./img/slider2.png);
+    min-width: 100%;
+    min-height: 625px;
+    object-fit: fill;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.img3{
+    background-image: linear-gradient(#212529c4,#212529b8), url(./img/slider3.webp);
+    min-width: 100%;
+    min-height: 625px;
+    object-fit: fill;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.carousel-caption{
+    position: absolute!important;
+    bottom: 165px!important;
+    right: 30%!important;
+    text-align: left!important;
+}
+.carousel-caption h2{
+    font-size: 2.5rem!important;
+    font-weight: 600 !important;
+}
+.carousel-caption p{
+    font-size: 1.5rem!important;
+    font-weight: 500 !important;
+    color: white;
+}
+/* END */
+
+/* FIGHT HUNGER */
+.goal{
+    background: #f1f1f1;
+    min-height: 110vh;
+}
+.goal .goal-content .p1{
+    color: #258a80;
+    font-weight: 500;
+}
+.goal .goal-content .p2{
+    line-height: 26px;
+    color: #666666;
+    font-weight: 400;
+}
+.goal .gcr{
+    min-width: auto;
+    min-height: 170px;
+    background: #ffff;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 20px 20px;
+    border-radius: 10px;
+    /* color: white; */
+}
+.goal .gcr:hover{
+    background: #258a80;
+    color: white;
+    transition: 0.7s all;
+
+}
+/* END */
+
+/* THRIVE EMPTY STOMACH */
+.thrive .img{
+    background-image:linear-gradient(#21252938,#21252961), url(./img/donate3.jpg);
+    min-width: 100%;
+    min-height: 50vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-attachment: fixed; */
+}
+
+.img .img-caption{
+    max-width: 40%;
+    min-height: 75vh;
+    position: relative;
+    top: 120px;
+    margin: 0px 0px 0px 85px;
+    color: white;
+}
+.img .img-caption h3{
+    font-size: 1.7rem;
+}
+.img .img-caption p{
+    font-size: 1rem;
+}
+/* End */
+
+/* OUR CAUSES */
+.causes{
+    background: #f6f6f6;
+    /* min-height: 150vh; */
+}
+.causes .card{
+    /* box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px; */
+}
+.causes .card .card-img-top{
+    position: relative;
+    display: block;
+    overflow: hidden;
+}
+.causes .card img{
+    max-width: 100%;
+    min-height: 260px;
+    transition: all .5s ease-out 0s;
+}
+.causes .card:hover{
+    color: black!important;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+.causes .card:hover .card-img-top img{
+    transform: scale(1.1);
+    opacity: 0.9;
+}
+.causes .card:hover .card-body{
+    background: #e1e6e7;
+}
+.causes .card:hover .card-footer{
+    background: #f5f5f5;
+    color: white!important;
+}
+
+.causes .edu{
+    min-width: fit-content;
+    min-height: 6vh;
+    margin: 0px 120px;
+    background: #238178;
+    color: white;
+    border-radius: 50px;
+    position: relative;
+    bottom: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* left: 150px; */
+}
+.causes .edu h5{
+    color: white;
+}
+.causes .card-body{
+    /* background: #f5f5f5; */
+    background: #f1f1f1;
+    min-height: 30vh;
+}
+.causes .card-body p{
+    padding-top: 5px;
+}
+.causes .card-footer{
+    background: #ebeff0;
+    /* background: #ececec; */
+
+}
+.progress{
+    height: 12px!important;
+    background: white!important;
+    
+}
+.progress .progress-bar{
+    background: #238178!important;
+    /* color: white!important; */
+}
+/* END */
+
+/* EVERYONE DESERVES HEALTHY FOOD */
+.healthy-food{
+    position: relative;
+    /* background: #f5f5f5; */
+    min-height: 30vh;
+    border: 1px solid rgb(226, 225, 225);
+    /* bottom: 20px; */
+}
+.healthy-food .container .row .hcr{
+    padding-top: 50px;
+    /* display: flex; */
+    /* margin-top: 50px; */
+    /* text-align: center; */
+}
+/* END */
+
+/* HELP END HUNGER TODAY */
+.help-end-hunger .banner{
+    background-image:linear-gradient(#212529c4,#212529b8), url(./img/campaign/cause3.webp);
+    min-width: 100%;
+    min-height: 90vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.help-end-hunger .banner .container .cr{
+    min-height: 300px;
+    transition: 0.5s;
+}
+.help-end-hunger .banner .container .cr1{
+    background-color: white;
+    padding: 35px 30px;
+    margin-bottom: 10px;
+    min-height: 47vh;
+}
+.help-end-hunger .banner .container .cr a,
+.help-end-hunger .banner .container .cr1 a{
+    text-decoration: none;
+    color: rgb(62, 134, 62);
+    font-weight: 500;
+    /* border: 1px solid rgb(223, 219, 219); */
+    padding: 10px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
+    /* background: #f1f1f1; */
+}
+/* .help-end-hunger .banner .container .cr a:hover,
+.help-end-hunger .banner .container .cr1 a:hover{
+    background: #0a686e;
+} */
+.help-end-hunger .banner .container .cr1 h6{
+    padding-top: 25px;
+    font-size: 20px;
+}
+.help-end-hunger .banner .container .cr1 p{
+    padding-top: 10px;
+    font-size: 16px;
+}
+.help-end-hunger .banner .container .cr:hover{
+    transform: translateY(-20px);
+    box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px 0px inset;
+    opacity: 0.9;
+    /* color: #0a686e; */
+    /* color: white; */
+    font-size: 15px;
+    border-radius: 12px;
+}
+/* END */
+
+
+/* OUR VOLUNTEER */
+.volunteer{
+    background: #f1f1f1;
+    min-height: 120vh;
+}
+.volunteer-heading p{
+    color: #258a80;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.volunteer .staff-img{
+    position: relative;
+    top: 50px;
+    text-align: center;
+}
+.volunteer .staff-img img{
+    border: 9px solid #f1f1f1;
+    max-width: 160px;
+    max-height: 160px;
+}
+.volunteer .staff-content{
+    text-align: center;
+    min-width: auto;
+    min-height: 55vh;
+    background: white;
+    padding: 20px 0px;
+    transition: 0.5s;
+}
+.volunteer .staff-content:hover{
+    background: #258a80;
+    color: white;
+}
+.volunteer .staff-content:hover h3,
+.volunteer .staff-content:hover p,
+.volunteer .staff-content:hover ul li i{
+    color: white!important;
+    /* background-color: white; */
+}
+
+.volunteer .staff-content p{
+    font-size: 16px;
+    color: #6b6666;
+    /* padding-top: 10px; */
+}
+.volunteer .staff-content .list-unstyled{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+.volunteer .staff-content ul li i{
+    color: #258a80!important;
+    /* display: flex; */
+    /* justify-content: center; */
+}
+/* END */
+
+
+
+/* START OF TECHNICAL STATS */
+.technical .tech-img{
+    /* background-image: linear-gradient(#212529c4,#212529b8), url(./img/campaign/cause2.webp); */
+    background-image: linear-gradient(#081314b8,#08100eb8),url(./img/donate1.jpg);
+    /* background-image:linear-gradient(#063c3f9e,#203a35ba),-webkit-linear-gradient(0deg,rgba(7,18,48,.9)10%,rgba(53,6,3,.4) 50%),url(./img/technical_stats.webp); */
+    min-width: 100%;
+    min-height: 80vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.technical .tech-img .container .tech-cr{
+    background: #1b1b1b75;
+    color: white;
+    min-height: 30vh;
+    margin-bottom: 10px;
+    padding: 20px 0px;
+    /* opacity: 0.5; */
+}
+.technical .tech-img .container .tech-cr p{
+    color: white;
+}
+.technical .tech-img .container .tech-cr h3{
+    color: white!important;
+}
+/* END OF TECHNICAL STATS */
+
+/* TESTIMONALS */
+.testimonal .testimonal-img{
+    background-image:linear-gradient(#212529c4,#212529b8), url(./img/slider1.jpg);
+    min-width: 100%;
+    min-height: 90vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.testimonals-content{
+    background: #ffffff;
+    padding: 30px 18px 28px 22px;
+    min-height: 40vh;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+.testimonals-content-active{
+    background: #ececec!important;
+    padding: 30px 18px 28px 22px;
+    min-height: 40vh;
+    border: 1px solid #0a686e;
+    border-radius: 10px;
+    /* color: white; */
+}
+
+.testimonal-content{
+    line-height: 26px;
+    font-size: 18px;
+    font-weight: 400;
+}
+.testi-content{
+    padding: 20px 20px;
+    text-align: center;
+    align-items: center;
+}
+.testimonals-content .testi-content h5{
+    color: #0a686e;
+}
+/* END */
+
+/*JOIN US  */
+.join-us{
+    background: #f1f1f1;
+}
+.join-us .card{
+    border: none!important;
+    background: #f1f1f1;
+
+}
+/* END */
+
+
+/* help us */
+.help{
+    /* background: #f5f5f5; */
+    border: 1px solid rgb(212, 212, 212);
+}
+/* end */
+
+/* footer */
+.footer{
+    background: #202b2c!important;
+}
+
+.footer h5{
+    color: white !important;
+    font-size: 20px;
+}
+
+.footer p{
+    color: rgb(238, 238, 238)!important;
+}
+
+.footer ul li a{
+    color: rgb(238, 238, 238)!important;
+}
+
+.footer i{
+    /* color: #d49a3a; */
+    /* color: #238178; */
+    color: rgb(226, 226, 226);
+}
+
+#btn-back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+    background: #238178!important;
+    border: 1px solid  #238178!important;
+  }
+#btn-back-to-top i{
+    color: white!important;
+}
+#btn-danger:hover {
+    color: #fff;
+    background-color: #238178!important;
+    border-color: #238178!important;
+    border: 1px solid  #238178!important;
+}
+/* end */
+
+
+/* CAMPAIGN */
+.support{
+    background: #f5f5f5;
+    /* min-height: 190vh; */
+}
+.support .your-support{
+    background: white;
+    min-height: 100%;
+    min-width: 281px;   
+    position: relative;
+    right: 22px;
+}
+.support .yourSupport{
+    transition: all .5s ease-out 0s;
+}
+.support .yourSupport:hover{
+    transform: scale(1.0,1.1);
+    opacity: 0.9;
+    background: #f1f3f5;
+    color: #071230;
+}
+.support .names{
+    min-height: auto;
+    background: white;
+    padding: 25px 0px 10px 10px;
+    position: relative;
+    bottom: 23px;
+    border: 1px solid rgb(233, 230, 230);
+}
+.support .progress{
+    background: #e1e6e7!important;
+}
+.support .yourSupport{
+    /* box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px; */
+}
+/* END */
+
+/* CONTACT US */
+.contact{
+    background: #f5f5f5;
+}
+.contact .contact-us p{
+    background: #ebebeb;
+    padding: 10px 20px;
+    color: #0a686e;
+    border: 1px solid #258a80;
+    border-radius: 10px;
+    min-height: 8vh;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.contact .contact-us p i{
+    color: #258a80;
+}
+.contact .contact-us p:hover{
+    background: #258a80;
+    color: white;
+}
+.contact .contact-us p:hover i{
+    background: #258a80;
+    color: white;
+}
+/* END */
+
+/* DONATE NOW */
+.donation{
+    background: #f5f5f5;
+    border-bottom: 1px solid rgb(219, 219, 219);
+}
+.donation-used{
+    background: #f5f5f5;
+}
+/* END */
+
+/* media query */
+/* @media (max-width: 912px) {
+
+    .carousel-inner .inner-header .center h5 {
+      padding: 0px 70px !important;
+      font-size: 16px !important;
+      line-height: 22px !important;
+    }
+  } */
+  
+  @media (max-width: 540px) {
+    .navbar{
+    overflow-x: hidden !important;
+
+    }
+    /* .navbar>.container-fluid{
+        margin-right: 0px !important;
+        margin-left: 10px !important;
+    } */
+    .navbar .navbar-brand{
+        color: #0a686e!important;
+        font-size: 15px;
+        font-weight: 500!important;
+    }
+    .navbar .navbar-brand .nb{
+        color: #1c2c36!important;
+        font-size: 15px;
+        font-weight: 500!important;
+    }
+    .navbar-toggler {
+        padding: 0.25rem 0.75rem;
+        font-size: 1.25rem;
+    }
+    .navbar ul li a {
+        color: #0E2737!important;
+        text-decoration: none;
+        font-weight: 500;
+        padding-right: 0px !important;
+        /* font-size: 16px !important; */
+        /* font-weight: 400; */
+    }
+    .carousel-caption{
+        position: absolute!important;
+        bottom: 165px!important;
+        right: 30%!important;
+        text-align: left!important;
+    }
+    .carousel-caption h2{
+        font-size: 1.5rem!important;
+        font-weight: 600 !important;
+    }
+    .carousel-caption p{
+        font-size: 1rem!important;
+        font-weight: 500 !important;
+        color: white;
+    }
+
+    .healthy-food .container .row .hcr {
+        padding-top: 10px;
+    }
+
+    .causes .card .card-body .edu{
+        display: none !important;
+    }
+
+    .img .img-caption{
+        max-width: 50%;
+        min-height: 75vh;
+        position: relative;
+        top: 120px;
+        margin: 0px 0px 0px 45px;
+        color: white;
+    }
+    .img .img-caption h3{
+        font-size: 1.2rem;
+    }
+    .img .img-caption p{
+        font-size: 1rem;
+    }
+  }
+  
+ @media only screen and (max-width: 580px){
+    .support .yourSupport:hover{
+        transform: scale(0,0);
+        opacity: 0.9;
+        background: #f1f3f5;
+        color: #071230;
+    }
+    .support .yourSupport {
+        transition: none !important;
+    }
+    .your-sprt-img img{
+        width: 100%;
+    }
+    .support .your-support {
+        background: white;
+        min-height: 100%;
+        min-width: 281px;
+        position: relative;
+        right: 0px;
+    }
+    .position-absolute {
+        position: unset !important;
+    }
+    .donation-used .text-center{
+        text-align: start !important;
+    }
+    .alt-input{
+        padding-top: 7px;
+    }
+    .offset-1 {
+        margin-left: 0% !important;
+    }
+ }
+  

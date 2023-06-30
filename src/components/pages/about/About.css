@@ -1,0 +1,171 @@
+.abt_slider{
+    background-image:linear-gradient(#21252957,#212529a1), url(../../img/slider1.jpg);
+    min-width: 100%;
+    min-height: 625px;
+    object-fit: fill;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* .abt_slider{
+    position: relative;
+    top: 300px;
+    bottom: 100px;
+    text-align: center;
+    z-index: 15;
+} */
+.abt_slider h1{
+    font-weight: 600!important;
+    color: white;
+    padding-top: 300px;
+    text-align: center;
+}
+/* breadcrumb */
+.abt_slider .breadcrumb{
+    display: flex;
+    justify-content: center;
+    font-size: large;
+    font-weight: 500;
+}
+
+.abt_slider .breadcrumb li a{
+    text-decoration: none;
+    color: white;
+}
+.breadcrumb .breadcrumb-item .active a{
+    color: #071230!important;
+    background-color: #071230!important;
+}
+
+/* breadcrumb end */
+
+/* OUR MISSION */
+.mission{
+    background: #f5f5f5;
+    min-height: 118vh;
+}
+.mission .card{
+    box-shadow: rgb(26 17 17 / 10%) 0px 4px 12px;
+
+}
+.mission .card .card-img-top{
+    position: relative;
+    display: block;
+    overflow: hidden;
+}
+.mission .card img{
+    max-width: 100%;
+    min-height: 260px;
+    transition: all .5s ease-out 0s;
+}
+.mission .card:hover{
+    color: white!important;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+.mission .card:hover .card-img-top img{
+    transform: scale(1.1);
+    opacity: 0.9;
+}
+.mission .card:hover .card-body,
+.mission .card:hover .card-body p{
+    background: #e6e9e9;
+    /* color: rgb(66, 66, 66); */
+}
+/* END */
+
+/* ADVOCATE END HUNGER TODAY */
+.advocate .advocate-img{
+    background-image:linear-gradient(#081314b8,#08100eb8),url(../../img/donate1.jpg);
+    min-width: 100%;
+    height: 70vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    background-attachment: fixed;
+}
+
+.advocate .advocate-img .adv-content {
+   position: relative;
+   top: 50px;
+}
+/* END */
+
+/* OUR VOLUNTEER */
+.volunteer{
+    background: #f5f5f5;
+    min-height: 120vh;
+}
+.volunteer-heading p{
+    color: #258a80;
+    font-size: 18px;
+    font-weight: 500;
+}
+.volunteer .staff{
+    /* min-height: 90vh; */
+}
+.volunteer .staff-img{
+    position: relative;
+    top: 50px;
+    text-align: center;
+}
+.volunteer .staff-img img{
+    border: 9px solid #f5f5f5;
+    max-width: 160px;
+    max-height: 160px;
+}
+.volunteer .staff-content{
+    text-align: center;
+    min-width: auto;
+    min-height: 55vh;
+    background: white;
+    padding: 20px 0px;
+}
+.volunteer .staff-content p{
+    font-size: 16px;
+    color: #6b6666;
+    /* padding-top: 10px; */
+}
+.volunteer .staff-content .list-unstyled{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+.volunteer .staff-content ul li i{
+    color: #258a80!important;
+    /* display: flex; */
+    /* justify-content: center; */
+}
+/* END */
+
+/* FAQ */
+/* .faq{
+    background: #f5f5f5;
+} */
+.accordion{
+    background: #f5f5f5!important;
+}
+
+.accordion-button:not(.collapsed) {
+    color: black!important;
+    background-color: #e4e4e4!important;
+    box-shadow: inset 0 -1px 0 rgb(0 0 0 / 13%);
+}
+.accordion-button:focus {
+    z-index: 3;
+    border-color: #f1f1f1!important;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgb(13 110 253 / 25%);
+}
+.accordion-button:not(.collapsed) {
+    color: #080808!important;
+    background-color: #e7f1ff;
+    box-shadow: inset 0 -1px 0 rgb(0 0 0 / 13%);
+}
+/* end */
+
+/* help us  */
+.help-us{
+    background: #fafafa;
+    border-top: 1px solid rgb(206, 206, 206);
+}
+/* end */
