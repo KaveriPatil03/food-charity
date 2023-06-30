@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/food-charity/static/css/main.f6cc2d3d.css",
+    "main.js": "/food-charity/static/js/main.af2f248a.js",
+    "static/js/787.3904c572.chunk.js": "/food-charity/static/js/787.3904c572.chunk.js",
+    "static/media/fight-hunger1.jpg": "/food-charity/static/media/fight-hunger1.6bf5fec8d355c709e9ab.jpg",
+    "static/media/slider2.png": "/food-charity/static/media/slider2.b7f786ab9a39cb951146.png",
+    "static/media/slider3.webp": "/food-charity/static/media/slider3.f2645417305a9903b40e.webp",
+    "static/media/slider1.jpg": "/food-charity/static/media/slider1.f0594f6641aa1070b3fc.jpg",
+    "static/media/cause2.webp": "/food-charity/static/media/cause2.d227a0bde11e235705f2.webp",
+    "static/media/staff1.webp": "/food-charity/static/media/staff1.2c515cd76c063ed610e4.webp",
+    "static/media/cause3.webp": "/food-charity/static/media/cause3.0a8e6bfef6388a6c5339.webp",
+    "static/media/cause4.webp": "/food-charity/static/media/cause4.16afdf1ce5941f7b7861.webp",
+    "static/media/donate3.jpg": "/food-charity/static/media/donate3.61de0dfccdcc816994bf.jpg",
+    "static/media/about-vision.jpg": "/food-charity/static/media/about-vision.bae2b434cdf57ffc98ab.jpg",
+    "static/media/our-mission.jpg": "/food-charity/static/media/our-mission.d1d7c554e04d44c91548.jpg",
+    "static/media/about-plan.jpg": "/food-charity/static/media/about-plan.c0f51c0f815c396221e7.jpg",
+    "static/media/hunger1.jpg": "/food-charity/static/media/hunger1.a9d6ac8f013b87d124e4.jpg",
+    "static/media/fund1.jpg": "/food-charity/static/media/fund1.d395a1f0740b400d3328.jpg",
+    "static/media/staff3.webp": "/food-charity/static/media/staff3.9ff592f291463e9e0a8d.webp",
+    "static/media/about1.webp": "/food-charity/static/media/about1.a8cd2bbecea38eb64153.webp",
+    "static/media/testimonal3.webp": "/food-charity/static/media/testimonal3.0ae9fe035ad7bd3d1169.webp",
+    "static/media/donate1.jpg": "/food-charity/static/media/donate1.5b218fe295d49b03959f.jpg",
+    "static/media/staff4.webp": "/food-charity/static/media/staff4.8d38ea6dce261c7e5287.webp",
+    "static/media/fund2.jpg": "/food-charity/static/media/fund2.6a28a7bdf718c5a1c80b.jpg",
+    "static/media/staff2.webp": "/food-charity/static/media/staff2.13bc3ab608b5efe3fe40.webp",
+    "static/media/testimonal2.webp": "/food-charity/static/media/testimonal2.aed58a44bd60d51d7c46.webp",
+    "static/media/testimonal1.webp": "/food-charity/static/media/testimonal1.f3c6e68701332bece24a.webp",
+    "static/media/logo.svg": "/food-charity/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/food-charity/index.html",
+    "main.f6cc2d3d.css.map": "/food-charity/static/css/main.f6cc2d3d.css.map",
+    "main.af2f248a.js.map": "/food-charity/static/js/main.af2f248a.js.map",
+    "787.3904c572.chunk.js.map": "/food-charity/static/js/787.3904c572.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f6cc2d3d.css",
+    "static/js/main.af2f248a.js"
+  ]
+}
